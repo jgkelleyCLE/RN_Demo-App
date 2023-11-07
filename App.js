@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View className="bg-blue-500 flex-1 items-center justify-center">
-      <Text>Change text from Github</Text>
+    <View className="bg-green-400 flex-1 items-center justify-center">
+      <Text className="text-xl">Second commit!</Text>
       <StatusBar style="auto" />
     </View>
   );
